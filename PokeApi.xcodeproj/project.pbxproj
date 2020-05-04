@@ -16,6 +16,8 @@
 		CF210DBE24609CB800ED9F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF210DBC24609CB800ED9F62 /* LaunchScreen.storyboard */; };
 		CF210DC924609CB800ED9F62 /* PokeApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF210DC824609CB800ED9F62 /* PokeApiTests.swift */; };
 		CF210DD424609CB800ED9F62 /* PokeApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF210DD324609CB800ED9F62 /* PokeApiUITests.swift */; };
+		CF210DE224609D6300ED9F62 /* PokemonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF210DE124609D6300ED9F62 /* PokemonClass.swift */; };
+		CF210DE424609E0400ED9F62 /* PokemonFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF210DE324609E0400ED9F62 /* PokemonFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		CF210DCF24609CB800ED9F62 /* PokeApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF210DD324609CB800ED9F62 /* PokeApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeApiUITests.swift; sourceTree = "<group>"; };
 		CF210DD524609CB800ED9F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF210DE124609D6300ED9F62 /* PokemonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonClass.swift; sourceTree = "<group>"; };
+		CF210DE324609E0400ED9F62 /* PokemonFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				CF210DBF24609CB800ED9F62 /* Info.plist */,
 				CF210DB224609CB600ED9F62 /* PokeApi.xcdatamodeld */,
 				CF210DB924609CB800ED9F62 /* Preview Content */,
+				CF210DE124609D6300ED9F62 /* PokemonClass.swift */,
+				CF210DE324609E0400ED9F62 /* PokemonFetcher.swift */,
 			);
 			path = PokeApi;
 			sourceTree = "<group>";
@@ -271,9 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF210DAF24609CB600ED9F62 /* AppDelegate.swift in Sources */,
+				CF210DE224609D6300ED9F62 /* PokemonClass.swift in Sources */,
 				CF210DB124609CB600ED9F62 /* SceneDelegate.swift in Sources */,
 				CF210DB624609CB600ED9F62 /* ContentView.swift in Sources */,
 				CF210DB424609CB600ED9F62 /* PokeApi.xcdatamodeld in Sources */,
+				CF210DE424609E0400ED9F62 /* PokemonFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

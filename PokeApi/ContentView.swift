@@ -8,9 +8,22 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @ObservedObject var fetcher = PokemonFetcher()
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            List (fetcher.pokemon) { Pokemon in
+                VStack(alignment: .leading) {
+                    Text(Pokemon.name)
+                    Text(Pokemon.id)
+                        .font(.system(size: 11))
+                        .foregroundColor(Color.gray)
+                    
+                }
+            }
+        }
     }
 }
 
